@@ -5,7 +5,7 @@ How can machine learning approaches be used to support technical problems?
 And for which problems does it make sense to use them? In particular, use cases 
 in the field of fluid mechanics are of my personal interest.
 
-GOAL
+## GOAL
 This example of a neural network (MLP) is intended to establish a relationship 
 between airfoil contours with flow velocity and angle of attack as features 
 of a set of labels consisting of aerodyanmic coefficients. Ideally, 
@@ -21,7 +21,7 @@ For this open heart surgery, the author prefers the KISS principle:
 "Keep it simple, stupid!"
 
 
-DATASET
+## DATASET
 The original dataset is obtained from :
 https://www.kaggle.com/datasets/swegmaster/airfoil-performance-and-geometry-data
 
@@ -63,7 +63,7 @@ Where:
 -topXTR is the dimensionless position of the transition from laminar to turbulent flow on the upper side
 -botXTR is the dimensionless position of the transition from laminar to turbulent flow on the lower side
 
-MACHINE LEARNING APPROACH
+## MACHINE LEARNING APPROACH
 The task to predict the aerodynamic performance of an airfoil by its shape description
 is categorized as a regression problem. As a first concept a multilayer perceptron (MLP)
 with the follwoing attributes is used:
