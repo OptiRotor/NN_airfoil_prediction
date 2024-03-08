@@ -1,6 +1,6 @@
 # NN_airfoil_prediction
 
-Background
+## Background
 How can machine learning approaches be used to support technical problems? 
 And for which problems does it make sense to use them? In particular, use cases 
 in the field of fluid mechanics are of my personal interest.
